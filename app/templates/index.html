@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ class_name }} Class Schedule</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/js/script.js" defer></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-roboto">
+    <div class="container mx-auto my-8">
+        <header class="flex flex-col md:flex-row justify-between items-center mb-6">
+            <div class="text-center">
+                <h1 class="text-5xl font-bold text-blue-600">{{ class_name }} Class Schedule</h1>
+                <p class="text-lg text-gray-600 mt-2">Plan your week effectively</p>
+            </div>
+            <div class="relative mt-4 md:mt-0">
+                <button onclick="toggleDropdown()" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none transition duration-300">
+                    Class
+                </button>
+                <div id="dropdown-menu" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg border z-10">
+                    <a href="/schedule/AI" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">AI</a>
+                    <a href="/schedule/CST" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">CST Class 2</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex justify-center mb-4">
+            <div class="relative w-full max-w-lg">
+                <input type="text" id="search-input" placeholder="Search classes..." class="w-full py-3 pl-4 pr-10 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600" oninput="showSuggestions()"/>
+                <button class="absolute inset-y-0 right-0 flex items-center pr-3" onclick="searchClasses()">
+                    <i class="fas fa-search text-gray-500"></i>
+                </button>
+                <div id="suggestions" class="absolute z-20 w-full mt-1 bg-white border border-gray-300 rounded-lg hidden"></div>
+            </div>
+        </div>
+
+        <div class="flex justify-between mb-4">
+            <div class="flex space-x-4">
+                <button class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300" onclick="showTodaySchedule()">
+                    Today's Schedule
+                </button>
+                <button class="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 transition duration-300" onclick="showWeeklySchedule()">
+                    Weekly Schedule
+                </button>
+            </div>
+        </div>
+
+        <!-- Schedule content -->
+        <div id="schedule" class="space-y-4">
+            {% if schedule %}
+                {% for day, classes in schedule.items() %}
+                    <div class="day-schedule bg-white rounded-lg shadow-md p-4 mb-4">
+                        <h2 class="text-2xl font-bold text-blue-600">{{ day }}</h2>
+                        <div class="class-list mt-2">
+                            {% if classes %}
+                                {% for class in classes %}
+                                    <div class="class-item border-b border-gray-200 py-2">
+                                        <h3 class="font-semibold">{{ class.name }}</h3>
+                                        <p>Instructor: {{ class.instructor }}</p>
+                                        <p>Weeks: {{ class.weeks }}</p>
+                                        <p>Time: {{ class.time }}</p>
+                                        <p>Location: {{ class.location }}</p>
+                                    </div>
+                                {% endfor %}
+                            {% else %}
+                                <p>No classes scheduled for {{ day }}.</p>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p>No schedule available.</p>
+            {% endif %}
+        </div>
+    </div>
+    <script>
+        function toggleDropdown() {
+            document.getElementById("dropdown-menu").classList.toggle("hidden");
+        }
+
+        // Close the dropdown if the user clicks outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.bg-blue-600') && !event.target.matches('#dropdown-menu *')) {
+                document.getElementById("dropdown-menu").classList.add("hidden");
+            }
+        }
+    </script>
+</body>
+
+</html>

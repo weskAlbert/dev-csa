@@ -1,0 +1,82 @@
+Monday:
+    Comprehensive Chinese I (综合汉语 1)
+        Instructor: Wei Hongrui
+        Weeks: 4-18
+        Time: 1st period (10:10-11:50)
+        Location: Lanjiang Building C304
+
+    Advanced Mathematics I (高等数学 1)
+        Instructor: Muhammad Hamid
+        Weeks: 4-18
+        Time: 2nd period (13:45-15:25)
+        Location: Lanjiang Building N309
+
+    Chinese Listening & Speaking I (汉语听说 1)
+        Instructor: Sun Huili
+        Weeks: 4-18
+        Time: 3rd period (15:55-17:35)
+        Location: Lanjiang Building N204
+
+    Orientation (入学教育)
+        Instructors: Sun Wei, Zhang Yangyi, Zeng Fujie, Wang Xiaogang, Zhang Meng, Hu Yijie, Xu Mengying, Chen Yang
+        Weeks: 4-11
+        Time: 4th period (18:45-20:25)
+        Location: Binjiang BN401
+
+Tuesday:
+     Chinese Kungfu I (中华武术 1)
+        Instructor: Chen Dong
+        Weeks: 4-18
+        Time: 1st period (13:45-15:25)
+        Location: North Hall of the Gymnasium
+
+Wednesday:
+    Comprehensive Chinese I (综合汉语 1)
+        Instructor: Wei Hongrui
+        Weeks: 4-18
+        Time: 1st period (10:10-11:50)
+        Location: Binjiang BS405
+
+    Advanced Mathematics I (高等数学 1)
+        Instructor: Muhammad Hamid
+        Weeks: 4-18
+        Time: 2nd period (13:45-15:25)
+        Location: Lanjiang Building C201
+
+    Career Planning (职业生涯规划)
+        Weeks: 11-18
+        Time: 3rd period (18:45-20:25)
+        Location: Binjiang Building BN203
+
+Thursday:
+    Chinese Reading & Writing I (汉语读写 1)
+        Instructor: Qu Hongyan
+        Weeks: 4-18
+        Time: 1st-2nd period (13:45-15:25)
+        Location: Lanjing Building N306
+
+    Introduction to Computers (计算机导论) 
+        Instructor: Hiuk Jae Shim
+        Weeks: 4-18
+        Time: 5th-6th period (15:55-17:35)
+        Location: Lanjiang Building N205
+
+Friday:
+     China Overview I (中国概况 1)
+        Instructor: Xiong Anyuan
+        Weeks: 4-18
+        Time: 1st (10:10-11:50)
+        Location: Binjiang BS533
+
+    Comprehensive Chinese I (综合汉语 1)
+        Instructor: Wei Hongrui
+        Weeks: 4-18
+        Time: 2nd period (13:45-15:25)
+        Location: Lanjiang Building C302
+
+    Advanced Mathematics I (高等数学 1)
+        Instructor: Muhmmad Hamid
+        Weeks: 4-18
+        Time: 3rd period (15:55-17:35)
+        Location: Lanjiang Building S305
+

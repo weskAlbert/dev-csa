@@ -1,0 +1,12 @@
+body.dark {
+    background-color: #1f2937;
+    color: #f9fafb;
+}
+
+body.dark .bg-white {
+    background-color: #374151;
+}
+
+body.dark .text-blue-600 {
+    color: #93c5fd;
+}

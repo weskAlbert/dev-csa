@@ -1,0 +1,87 @@
+Monday:
+    Advanced Mathematics I (高等数学 1)
+        Instructor: MUHAMMAD HAMID
+        Weeks: 4-18
+        Time: 7th-8th period (15:55-17:35)
+        Location: Lanjiang Building S303
+
+    Comprehensive Chinese I (综合汉语 1)
+        Instructor: Gao Yuan
+        Weeks: 4-18
+        Time: 9th-10th period (18:45-20:25)
+        Location: Binjiang BS217
+        
+Tuesday:
+    Python Programming (计算机程序设计)
+        Instructor: Yang Bo
+        Weeks: 4-18
+        Time: 5th-6th period (13:45-15:25)
+        Location: Lanjiang Building S304
+
+    Orientation (入学教育)
+        Instructors: Sun Wei, Zhang Yangyi, Zeng Fujie, Wang Xiaogang, Zhang Meng, Hu Yijie, Xu Mengying, Chen Yang
+        Weeks: 4-11
+        Time: 9th-10th period (18:45-20:25)
+        Location: Binjiang BN301
+
+Wednesday:
+    China Overview I (中国概况 1)
+        Instructor: Xiong Anyuan
+        Weeks: 4-18
+        Time: 3rd period (10:10-11:50)
+        Location: Lanjiang Building N505
+
+    Comprehensive Chinese I (综合汉语 1)
+        Instructor: Gao Yuan
+        Weeks: 4-18
+        Time: 7th-8th period (15:55-17:35)
+        Location: Lanjiang Building N303
+
+    Advanced Mathematics I (高等数学 1)
+        Instructor: MUHAMMAD HAMID
+        Weeks: 4-18
+        Time: 9th-10th period (18:45-20:25)
+        Location: Lanjiang Building N207
+
+Thursday:
+    Chinese Kungfu I (中华武术 1)
+        Instructor: Chen Dong
+        Weeks: 4-18
+        Time: 1st-2nd period (08:00-09:40)
+        Location: Gym North Entrance Hall
+
+    Introduction to Computers (计算机导论)
+        Instructor: Hiuk Jae Shim (沈爀在)
+        Weeks: 4-18
+        Time: 5th-6th period (13:45-15:25)
+        Location: Lanjiang Building N504
+
+    Chinese Reading & Writing I (汉语读写 1)
+        Instructor: Ma Hangfei
+        Weeks: 4-18
+        Time: 7th-8th period (15:55-17:35)
+        Location: Lanjiang Building N308
+
+    Career Planning (职业生涯规划)
+        Weeks: 11-18
+        Time: 9th-10th period (18:45-20:25)
+        Location: Binjiang BN301
+
+Friday:
+    Comprehensive Chinese I (综合汉语 1)
+        Instructor: Gao Yuan
+        Weeks: 4-18
+        Time: 5th-6th period (13:45-15:25)
+        Location: Lanjiang Building N305
+
+    Chinese Listening & Speaking I (汉语听说 1)
+        Instructor: Zhang Yong
+        Weeks: 4-18
+        Time: 7th-8th period (15:55-17:35)
+        Location: Lanjiang Building S203
+ 
+    Advanced Mathematics I (高等数学 1)
+        Instructor: MUHAMMAD HAMID
+        Weeks: 4-18
+        Time: 9th-10th period (18:45-20:25)
+        Location: Lanjiang Building C201
